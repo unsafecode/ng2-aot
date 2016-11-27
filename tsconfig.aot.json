@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
+    "module": "es2015",
     "moduleResolution": "node",
     "target": "es5",
     "noImplicitAny": false,
@@ -15,5 +15,9 @@
     "outDir": "lib",
     "skipLibCheck": true,
     "baseUrl": "."
+  },
+  "angularCompilerOptions": {
+    "debug": true,
+    "entryModule":"app/app.module#AppModule"
   }
 }

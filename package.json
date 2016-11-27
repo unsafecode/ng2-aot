@@ -3,7 +3,9 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack",
-    "start": "http-server . -p 9000"
+    "server": "http-server . -p 9000",
+    "prestart": "npm run build",
+    "start": "npm run server"
   },
   "dependencies": {
     "@angular/common": "2.2.1",

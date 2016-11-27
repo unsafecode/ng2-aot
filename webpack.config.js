@@ -9,13 +9,12 @@ module.exports = {
   output: {
     path: './dist',
     publicPath: 'dist/',
-    filename: 'app.main.js'
+    filename: '[name].bundle.js',
+    chunkFilename: '[id].chunk.js'
   },
   plugins: [
     new ngToolsWebpack.AotPlugin({
-      tsConfigPath: './tsconfig.json',
-      entryModule: path.join(process.cwd(), "app/app.module#AppModule"),
-      baseDir: process.cwd(),
+      tsConfigPath: './tsconfig.aot.json'
     })
   ],
   module: {
