@@ -1,7 +1,8 @@
 <div>
   <h1>hello world</h1>
   <a [routerLink]="['']">Home</a>
-  <a [routerLink]="['lazy']">Lazy root</a>
-  <a [routerLink]="['lazy', 'feature']">Lazy feature</a>
+  <a [routerLink]="['/lazy']">Lazy root</a>
+  <a [routerLink]="['/lazy/feature']">Lazy feature 1</a>
+  <a [routerLink]="['/lazy/lazy-feature']">Lazy feature 2</a>
   <router-outlet></router-outlet>
 </div>
