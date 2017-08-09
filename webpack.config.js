@@ -8,7 +8,7 @@ module.exports = {
   entry: './app/main.jit.ts',
   output: {
     path: path.resolve(__dirname, './dist/'),
-    publicPath: './dist/',
+    publicPath: '/dist/',
     filename: '[name].bundle.js',
     chunkFilename: '[id].chunk.js'
   },
