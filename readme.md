@@ -1,4 +1,4 @@
-# ng2-aot - Working Angular2 demo app with AoT and lazy routes
+# ng2-aot - Working Angular4 demo app with AoT and lazy routes
 Inspired from [@ngtools/webpack](https://github.com/angular/angular-cli/tree/master/tests/e2e/assets/webpack/test-app) internal tests, 
 this little Angular2 app shows how to AoT compilation with lazy routes.
 
@@ -10,10 +10,10 @@ in a `webpack` project, but there are some caveats with `tsconfig.json` to watch
 
 
 ## Structure
-- webpack@2.1.0.beta-22
-- angular@2.2.1
-- @ngtools/webpack@1.1.6
-- typescript@2.0.10
+- webpack@3.5.2
+- angular@4.3.3
+- @ngtools/webpack@1.5.5
+- typescript@2.4.2
 
 ## Key points
 While using the AoT Plugin looks simple, there are _many_ caveats to watch for, that
